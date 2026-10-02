@@ -91,7 +91,7 @@
 /* Keep restaurant choices compact while preserving native details controls. */
 .food-jumps{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
 .food-jumps a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border:1px solid var(--line);border-radius:100px;background:var(--white);color:var(--teal);font-size:14px;font-weight:750;text-decoration:none;overflow-wrap:anywhere}
-.food-photo-note{margin:0 0 16px;font-size:14px;line-height:1.85;color:var(--muted)}.photo-pending{font-size:13px;color:var(--muted)}
+.food-photo-note{margin:0 0 16px;font-size:14px;line-height:1.85;color:var(--muted)}.photo-pending{font-size:14px;color:var(--muted)}
 .food-region{min-width:0;align-self:start;scroll-margin-top:86px;padding:22px}
 .food-region>h3{margin:0 0 8px;font-size:20px}.food-region>p{font-size:14px;line-height:1.8;margin:0 0 16px}
 .restaurant{min-width:0;border-top:1px solid var(--line);overflow-wrap:anywhere}
@@ -109,11 +109,12 @@
 .restaurant-body{padding:0 0 16px;min-width:0}.restaurant-body p{margin:0 0 10px;font-size:14px;line-height:1.85;color:var(--muted)}
 .restaurant-photo{min-width:0;margin:0 0 12px}
 .restaurant-photo>img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:8px;background:var(--pale)}
-.restaurant-photo>figcaption{margin-top:4px;font-size:13px;line-height:1.65;color:var(--muted);overflow-wrap:anywhere}
+.restaurant-photo>figcaption{margin-top:4px;font-size:14px;line-height:1.65;color:var(--muted);overflow-wrap:anywhere}
 .restaurant-photo>figcaption a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;max-width:100%;padding:4px 6px;color:var(--teal);font-weight:750;text-underline-offset:3px;overflow-wrap:anywhere}
 .restaurant-photo>figcaption a:hover{background:var(--pale);color:var(--ink)}
-.food-extras .restaurant-photo{float:right;width:min(34%,320px);margin:0 0 12px 22px}.food-extras:after{content:"";display:block;clear:both}
-@media(max-width:700px){.food-extras .restaurant-photo{float:none;width:100%;margin:14px 0}}
+.food-extra-choice{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,30%);gap:22px;align-items:start;margin-top:14px}.food-extra-choice .restaurant-photo{width:100%;margin:0}
+@media(max-width:700px){.food-extra-choice{grid-template-columns:minmax(0,1fr);gap:12px}}
+@media print{.food-extra-choice{display:block}}
 .restaurant-links{display:flex;flex-wrap:wrap;gap:6px}
 .restaurant-links a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;color:var(--teal);font-size:14px;line-height:1.5;font-weight:750;text-decoration:none;overflow-wrap:anywhere}
 .restaurant-links .place-link+.place-link{margin-left:0}.restaurant-links a:hover,.food-jumps a:hover{background:var(--pale);color:var(--ink)}
