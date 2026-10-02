@@ -1,0 +1,888 @@
+{
+  "reviewedOn": "2026-10-02",
+  "method": "重新打开小红书具体原帖、等待评论加载、展开有关分店/价格/实吃的回复；读取范围按各店记录。不同分店不合并，非实吃或推广不当独立好评。",
+  "limitations": [
+    "不是全站口碑统计；部分评论未读完，具体覆盖范围逐条注明。",
+    "旧价格、等位和团购不代表2026国庆。消费者陈述不是独立事实核验；没有向商家确认当前营业、菜单、外带或携宠。",
+    "浏览器访问中止后停止继续检索，没有取得本店证据的候选标为资料备选，未据此判差。"
+  ],
+  "restaurants": [
+    {
+      "key": "gaojiazhuang",
+      "name": "高佳庄·海景旗舰店",
+      "decision": "仅资料备选",
+      "branchMatch": "未取得对应海景旗舰店的独立实吃及评论依据",
+      "notes": [
+        {
+          "title": "在舟山，竟然错过了回来的船…",
+          "author": "Betty",
+          "url": "https://xhslink.cn/o/gZkUxlmuPu",
+          "dateDisplayed": "编辑于2025-10-10",
+          "body": "高佳庄品牌体验为四人700多元，明确说看到多家连锁，未写具体分店。",
+          "comments": "重新读到2条评论及THE END，均围绕岛上Hola的位置或按推荐上岛吃饭，没有旗舰店评价。",
+          "commentTotalDisplayed": 2,
+          "coverage": "2条已加载评论；没有对应旗舰店实吃"
+        },
+        {
+          "title": "舟山两顿 - 沈家门夜排档39号 & 高佳庄",
+          "author": "榨菜包",
+          "url": "https://www.xiaohongshu.com/explore/69bbd32f0000000022000c27?xsec_token=ABJu-8p5oOP253GT_SmA_ADst-1Ppiajpk7c2c1vFIAtA=&xsec_source=pc_search",
+          "dateDisplayed": "03-19",
+          "body": "高佳庄作者不记得分店，只说希尔顿/铂尔曼附近；不能归海景旗舰店。",
+          "comments": "3条评论读到THE END，未补充高佳庄分店。",
+          "commentTotalDisplayed": 3,
+          "coverage": "3条已加载评论"
+        }
+      ],
+      "limitations": "地址与照片存在不能代替本店口碑，不把不明确分店的正负评用于排名。",
+      "area": "沈家门",
+      "pageDecision": "仅资料备选"
+    },
+    {
+      "key": "xiaoxixi",
+      "name": "笑嘻嘻·沈家门店",
+      "decision": "有条件可选",
+      "branchMatch": "新补作者一的沈家门大字/渔船对面具体线索；原来两篇正文均为东港店，已剔除",
+      "notes": [
+        {
+          "title": "人均50+！在舟山实现海鲜自由！！",
+          "author": "一",
+          "url": "https://xhslink.cn/o/3BsCvCUCms0",
+          "dateDisplayed": "编辑于2025-10-01",
+          "body": "作者写沈家门大字旁边、对面渔船；团购加单点，牛肉太咸后退菜，蟹与服务认可，150元是21点后的旧夜宵团购。",
+          "comments": "9条评论展开3条价格回复后读到THE END：作者说须美团；另一读者表示所见团购不一样。其余问推荐、泛泛评论及无可读文字项不能计独立实吃。",
+          "commentTotalDisplayed": 9,
+          "coverage": "9条显示项含回复与无可读文字评论；不等于9条实吃好评"
+        },
+        {
+          "title": "到底是谁在避雷舟山笑嘻嘻海鲜",
+          "author": "不吃海胆（有八花版",
+          "url": "https://xhslink.cn/o/1ynpJaufTdg",
+          "dateDisplayed": "08-04",
+          "body": "正文希尔顿旁分店，不能归沈家门店。",
+          "comments": "已加载评论中，鱼丸明确沈家门店味道和性价比好；另一momo明确沈家门大排档对面团购龙虾肉量疑问，体验有分歧。展开虾品种3条回复，有读者纠正称呼，不将其写成店家欺诈。",
+          "commentTotalDisplayed": 44,
+          "coverage": "已加载评论及4条、3条、1条三组回复，未覆盖全部44条"
+        },
+        {
+          "title": "吃前笑嘻嘻，吃完不嘻嘻",
+          "author": "spurec",
+          "url": "https://xhslink.cn/o/5UHjkc5NZtH",
+          "dateDisplayed": "2024-07-20",
+          "body": "分量和新鲜度差评。",
+          "comments": "作者回复读者确认是东港店；明确剔除，不能用作沈家门店差评。",
+          "commentTotalDisplayed": 27,
+          "coverage": "已加载评论，足以确认分店；未全读27条"
+        }
+      ],
+      "limitations": "分店不同不合并。沈家门具体实吃仍是小样本，团购内容和价格须当天核；不安排21点夜宵以免影响次日登船。",
+      "area": "沈家门",
+      "pageDecision": "有条件可选"
+    },
+    {
+      "key": "mamacai",
+      "name": "妈妈菜·沈家门店",
+      "decision": "有条件可选",
+      "branchMatch": "jinx沈家门段可用，其他泛舟山市区帖子不计对应分店好评",
+      "notes": [
+        {
+          "title": "在舟山吃的饭",
+          "author": "jinx（每天都吃牛排版",
+          "url": "https://xhslink.cn/o/1DOwesojjWg",
+          "dateDisplayed": "2025-10-07",
+          "body": "梭子蟹和椒盐玉秃鱼认可，等位约半小时、上菜快；捞汁含黄酒且八分熟。",
+          "comments": "本轮重新打开并展开，4条读到THE END。问蟹贵不贵，作者答好像两只169，属于旧价且记忆不确定；其他为支付问题及无文字项。",
+          "commentTotalDisplayed": 4,
+          "coverage": "4条显示评论及回复；没有独立多次同店实吃"
+        },
+        {
+          "title": "本人在舟山招待外地朋友已有SOP（懒人版）",
+          "author": "天天冰美式",
+          "url": "https://xhslink.cn/o/5xFPxYkqn9Q",
+          "dateDisplayed": "09-19浙江",
+          "body": "只有妈妈菜性价比简述，未明确分店，不计具体实吃。",
+          "comments": "已加载评论有一位认为价格略高，另一位认为好吃且有性价比；没有分店与完整点餐细节，不归沈家门店。",
+          "commentTotalDisplayed": 73,
+          "coverage": "已加载评论，未覆盖全部73条"
+        },
+        {
+          "title": "舟山的海鲜要比景点更有意思",
+          "author": "达达6OVO6",
+          "url": "https://xhslink.cn/o/s5DJVTtR8",
+          "dateDisplayed": "07-19",
+          "body": "妈妈菜只有带鱼饭惊艳、其他一般；仅写舟山市区，不确定同分店。",
+          "comments": "已加载评论中有妈妈菜还不错，作者回复只有带鱼饭惊艳；不当独立同店评价。",
+          "commentTotalDisplayed": 12,
+          "coverage": "已加载10条左右显示项，未展开无关回复"
+        }
+      ],
+      "limitations": "因等位与宠物禁入仅适合可安排外带/轮流用餐时；没有足够证据称其无差评或最优。捞汁不列为行程点菜建议。",
+      "area": "沈家门",
+      "pageDecision": "有条件可选"
+    },
+    {
+      "key": "abao",
+      "name": "阿宝海鲜面",
+      "decision": "本次不优先",
+      "branchMatch": "沈家门同名店线索，几篇未给完整门牌，因此不作单店质量定论",
+      "notes": [
+        {
+          "title": "舟山阿宝海鲜面馆踩坑",
+          "author": "No fate",
+          "url": "https://www.xiaohongshu.com/explore/67ea80c8000000001c0306db?xsec_token=ABnhy4okc-DyrMN5nHtNZfcxlORFSgcV_P9cFa_h693_8=&xsec_source=pc_search",
+          "dateDisplayed": "2025-03-31",
+          "body": "作者30元虾蛏子米面觉得汤淡、鲜味不足；这为当次个人感受。",
+          "comments": "已加载评论出现进店气味、环境、味道一般等具体经历，也有看图觉得不错的未实吃评论，不计口碑；没有明确商家答复。",
+          "commentTotalDisplayed": 24,
+          "coverage": "已加载评论，未覆盖全部24条"
+        },
+        {
+          "title": "沈家门阿宝海鲜面香迷糊了",
+          "author": "ohh",
+          "url": "https://www.xiaohongshu.com/explore/695de752000000001a027b7b?xsec_token=AB55abVYZEshdLUtU0le6117QKElF4yzqTl00-UduuozU=&xsec_source=pc_search",
+          "dateDisplayed": "01-07",
+          "body": "认可海鲜、油渣和熏鱼。",
+          "comments": "2条读到THE END：海边牧鱼人认为一般且不便宜；另一条质疑水军，无证明，不用于定性推广。",
+          "commentTotalDisplayed": 2,
+          "coverage": "2条显示评论"
+        },
+        {
+          "title": "舟山阿宝面馆 避雷 别来！！",
+          "author": "囍氚",
+          "url": "https://www.xiaohongshu.com/explore/69682ca70000000022022515?xsec_token=ABQ7YLtYxcV3cKkJsEADHeca0lV3oCyaY0Kp0typzdbhE=&xsec_source=pc_search",
+          "dateDisplayed": "01-15",
+          "body": "作者认为味道普通，老板娘服务态度不好，同时说不贵。",
+          "comments": "已读显示评论与部分已展开回复，有正在吃觉得还行的反馈；有人称本地人不去，被回复纠正为居民老店，不将网红/水军质疑当事实。",
+          "commentTotalDisplayed": 8,
+          "coverage": "已加载5条主评论与部分回复，未展开其余3条"
+        }
+      ],
+      "limitations": "评价有分歧且门牌归属不全，撤掉默认晚到/船前推荐；不写成全店卫生或食材定论。",
+      "area": "沈家门",
+      "pageDecision": "本次不优先"
+    },
+    {
+      "key": "laoguoqiang",
+      "name": "老国强·菜市路店",
+      "decision": "本次不优先",
+      "branchMatch": "展开地址回复明确菜市路，作者承认误将东港和沈家门混称",
+      "notes": [
+        {
+          "title": "舟山｜老国强面馆-我敢说他家汤头最绝！",
+          "author": "范范老师",
+          "url": "https://www.xiaohongshu.com/explore/66baf3160000000005022b51?xsec_token=ABQsxlsOX4_AfmzTNrumnvIksWV-UoMiaY4z0Acjw4t5c=&xsec_source=pc_search",
+          "dateDisplayed": "编辑于2024-08-13",
+          "body": "作者两天早午餐认可汤头和配料。",
+          "comments": "已加载评论及地址6条回复中的5条：有人说吃过难吃且贵，作者回复自己吃时好但价格确不便宜；另有味道一般及一条异物陈述，无商家核实。地址回复明确店在沈家门菜市路。",
+          "commentTotalDisplayed": 28,
+          "coverage": "已加载评论与地址展开回复，未覆盖全部28条"
+        }
+      ],
+      "limitations": "评论主要2024年，不断言2026仍如此；结合绕老城及预算不稳定，这次不为它绕路。",
+      "area": "沈家门",
+      "pageDecision": "本次不优先"
+    },
+    {
+      "key": "yepaidang39-40",
+      "name": "沈家门夜排档39—40号",
+      "decision": "有条件可选",
+      "branchMatch": "正文明确夜排档39号，40号单独口碑未核",
+      "notes": [
+        {
+          "title": "舟山两顿 - 沈家门夜排档39号 & 高佳庄",
+          "author": "榨菜包",
+          "url": "https://www.xiaohongshu.com/explore/69bbd32f0000000022000c27?xsec_token=ABJu-8p5oOP253GT_SmA_ADst-1Ppiajpk7c2c1vFIAtA=&xsec_source=pc_search",
+          "dateDisplayed": "03-19",
+          "body": "七人1030元；认可水潺、鱿鱼及贝类火候，也写蛏子有沙、黄鱼偏柴、带鱼黑膜未净。蟹不肥。",
+          "comments": "3条读到THE END：泛谈蛏子、39号身份与询价，没有新的独立实吃佐证。",
+          "commentTotalDisplayed": 3,
+          "coverage": "3条显示评论"
+        }
+      ],
+      "limitations": "单篇具体体验有优有缺，不能将7人账单换成两人报价。露天风雨不宜，只在问价、出餐与外带落实后考虑。",
+      "area": "沈家门",
+      "pageDecision": "有条件可选"
+    },
+    {
+      "name": "Hola Hola",
+      "status": "降级：本次不优先 / 有争议备选",
+      "branchMatch": "多篇正文明确庙子湖Hola和码头附近；含混的米奇负评已排除。",
+      "recommendation": "从默认晚餐主选移到末尾；若仍去，现场先确认套餐可用、接客与预计出餐，问明蟹虾原料。5日赶船前不优先；保留具体正向体验作反证。",
+      "notes": [
+        {
+          "title": "在舟山吃的饭",
+          "author": "jinx（每天都吃牛排版",
+          "url": "https://xhslink.cn/o/1DOwesojjWg",
+          "date": "2025-10-07",
+          "正文小结": "作者2025国庆到访。妈妈菜段明确沈家门：认可梭子蟹、捞汁海鲜、椒盐玉秃鱼，等位约半小时但上菜快。海珍珠p5-p6：作者所住夏日比海民宿老板开的店，称海鲜新鲜、梭子蟹肉肥、海鲜炒饭好吃。Hola p7-p9：两次用餐，认可烤鱼、炒年糕、豆腐汤、手撕包菜；明确称p7酱骨蟹用液氮冷冻蟹，两次均等半小时以上上菜。",
+          "comments观察": [
+            {
+              "author": "Sr雪碧",
+              "date": "2025-10-08",
+              "observation": "问妈妈菜梭子蟹贵不贵；不是海珍珠或Hola价格。"
+            },
+            {
+              "author": "jinx（每天都吃牛排版",
+              "date": "2025-10-08",
+              "observation": "作者回复妈妈菜蟹“好像是两只169”；这是回忆的2025消费，不是现价。"
+            },
+            {
+              "author": "Sr雪碧",
+              "date": "2025-10-08",
+              "observation": "已展开的回复节点没有可读正文（可能表情），不作为餐饮实吃证据。"
+            },
+            {
+              "author": "🎈singkwong👑",
+              "date": "2025-10-31",
+              "observation": "问岛上能否微信支付；未见作者回复。"
+            }
+          ],
+          "readCount": 4,
+          "totalCount": 4,
+          "countScope": "本轮通过自建 Chrome 标签实时读取；readCount含已展开回复。共用原帖在不同餐厅重复引用，不能重复累加为独立口碑。",
+          "limitations": "评论已展开并读到THE END；四条评论没有海珍珠或Hola口味、新鲜度的独立验证。作者住同老板民宿是已知消费背景，不能据此断言广告。冷冻蟹是作者陈述，不能扩大为全部海鲜不新鲜或食品安全结论。"
+        },
+        {
+          "title": "东极 庙子湖，不踩雷，明码标价的餐厅！！",
+          "author": "She's",
+          "url": "https://xhslink.cn/o/8Eg7HT2yRj2",
+          "date": "编辑于2025-07-15",
+          "正文小结": "原文配菜单、推荐烤鱼、避风塘虾、蟹骨酱和海胆蒸蛋，自称不是广告；自称不能替代利益关系核实。",
+          "comments观察": [
+            {
+              "author": "momo七",
+              "date": "2025-08-28",
+              "observation": "称电话确认美团券可用，到店却被告知不能用；厨师说要等很久又不给预计时间，感觉被劝退。作者回应惊讶，未见已验证商家回复。"
+            },
+            {
+              "author": "星夜",
+              "date": "2025-08-13",
+              "observation": "称美团套餐到店不能用、套餐东西没有了；作者2025-08-15回复自己此前点的就是套餐。"
+            },
+            {
+              "author": "之之",
+              "date": "2025-08-22",
+              "observation": "称到店不接客、吃不了饭；作者回复惊讶。"
+            },
+            {
+              "author": "CiCi",
+              "date": "05-14（页面未显示年份）",
+              "observation": "称难吃贵、等菜两小时、虾冷冻；属个人消费陈述，未验证原料与当前经营情况。"
+            },
+            {
+              "author": "敏",
+              "date": "2025-08-18/2025-08-19",
+              "observation": "称刚吃完味道nice；展开回复明确没点石斑鱼，海胆和避风塘大虾可以，是具体正向实吃。"
+            },
+            {
+              "author": "兔子乖乖熙蕊及另一评论者",
+              "date": "2025-07-21/2025-08-07",
+              "observation": "一人认为价格天价，另一人认为可接受；价格感受相反，不当作客观现价。"
+            },
+            {
+              "author": "米奇/条条小队长",
+              "date": "05-28/05-29/08-02（年份未显示）",
+              "observation": "米奇写难吃、预制菜；条条小队长指出其吃的是东隅。打开米奇公开个人页显示没有发布内容，未能核实对应原帖；这组负评不归Hola，也不直接归东隅。"
+            },
+            {
+              "author": "小红薯68B8AB88",
+              "date": "2025-07-15",
+              "observation": "问海享莱怎么不去，作者答纯瞎逛；不能当海享莱实吃好评。"
+            },
+            {
+              "author": "名侦探柯南/人间清醒者",
+              "date": "2025-07-15/2025-08-29",
+              "observation": "前者引流东极大排档打折，后者讲避风塘店套餐不可用；不同店或推广，均不归Hola。"
+            },
+            {
+              "author": "其余已读评论",
+              "date": null,
+              "observation": "包含地点/份量询问、日落环境评价和泛推荐；路过住旁边觉得不坑不是用餐证据。未识别出可验证商家账号回复。"
+            }
+          ],
+          "readCount": 42,
+          "totalCount": 42,
+          "countScope": "本轮通过自建 Chrome 标签实时读取；readCount含已展开回复。共用原帖在不同餐厅重复引用，不能重复累加为独立口碑。",
+          "limitations": "实际滚动加载、展开相关回复后读到THE END。正负体验并存，具体团购、拒接与等待反馈支持本次降级，不足以断言2026必然如此。短日期不补年份；作者回复不是商家回应。"
+        },
+        {
+          "title": "在舟山，竟然错过了回来的船…",
+          "author": "Betty（开心版",
+          "url": "https://xhslink.cn/o/gZkUxlmuPu",
+          "date": "编辑于2025-10-10",
+          "正文小结": "两次到访Hola，认可虾、炸鱼、豆腐汤；四五道菜加饮料人均100多。饭点排队后主动改签船票，不能作为按时赶船的可靠选择。老板赠冰箱贴不自动等于广告。",
+          "comments观察": [
+            {
+              "author": "冬天的雪",
+              "date": "09-08（年份未显示）",
+              "observation": "问庙子湖具体位置，未贡献质量证据。"
+            },
+            {
+              "author": "三花五粉",
+              "date": "07-21（年份未显示）",
+              "observation": "称按推荐去了真的棒、吃了两顿，是正向到访反馈，但没有具体菜和账单。"
+            }
+          ],
+          "readCount": 2,
+          "totalCount": 2,
+          "countScope": "本轮通过自建 Chrome 标签实时读取；readCount含已展开回复。共用原帖在不同餐厅重复引用，不能重复累加为独立口碑。",
+          "limitations": "读到THE END；存在正面反证，不能一概不推荐或推断食品安全风险。历史人均100多不等于2026两人固定实付。"
+        }
+      ],
+      "thisRoundSearch": "重开三篇已知原帖，实际读完4+42+2条评论；映桢/达达原档本轮未重开，不计实时评论。",
+      "key": "hola",
+      "area": "庙子湖",
+      "pageDecision": "本次不优先"
+    },
+    {
+      "name": "石码头餐厅",
+      "status": "有条件可选",
+      "branchMatch": "正文明确庙子湖石码头，root已核对本店蟹图；无其他岛混淆。",
+      "recommendation": "特色炒菜候选；先确认当日两人点菜总价和出餐。四女生的人均及2–3人300多元旧团购不写成2026两人实付保证。",
+      "notes": [
+        {
+          "title": "庙子湖美食红黑榜",
+          "author": "我早上七点半上班",
+          "url": "https://xhslink.cn/o/5eQImHYIYFh",
+          "date": "编辑于2024-08-31",
+          "正文小结": "石码头：2–3人团购加水煮牛肉，四女生吃饱，人均约100；认可甜口新加坡酱梭子蟹，2024当时午间人少。留夏：认可小食饮料及店内氛围，记录人均80–100。",
+          "comments观察": [
+            {
+              "author": "小羊困了嘛/作者",
+              "date": "2024-08-30",
+              "observation": "问搜不到团购。作者明确店叫石码头，昨天还有的2–3人300多元团购没了，只剩5–6人餐；不能把四人账单改写为当前两人套餐。"
+            },
+            {
+              "author": "thqby",
+              "date": "2025-12-21",
+              "observation": "仅写避雷庙子湖“小林海鲜排挡”，无原因、无地址；店名与小林海鲜面馆不同，不能直接归面馆。"
+            },
+            {
+              "author": "BMW",
+              "date": "05-19（年份未显示）",
+              "observation": "称老街一家店态度差，没说明店名；不归石码头或留夏。"
+            },
+            {
+              "author": "喵柒柒及作者",
+              "date": "2024-08-31",
+              "observation": "说舟府带鱼108元六块和皮皮虾体验；明确其他店，不归本轮餐厅。"
+            },
+            {
+              "author": "1111",
+              "date": "2024-09-09",
+              "observation": "邀请到东极石卧槽民宿尝尝，有引流性质，不作独立餐饮好评。"
+            },
+            {
+              "author": "其余已读评论",
+              "date": null,
+              "observation": "地点询问、泛旅游玩笑等；未读到明确归属于留夏的餐饮差评或可验证商家回应。"
+            }
+          ],
+          "readCount": 17,
+          "totalCount": 17,
+          "countScope": "本轮通过自建 Chrome 标签实时读取；readCount含已展开回复。共用原帖在不同餐厅重复引用，不能重复累加为独立口碑。",
+          "limitations": "展开回复并读完17条至THE END。2024团购与人流不是2026国庆保证；石码头缺少本轮独立实吃交叉验证。未指名差评不归本店。"
+        }
+      ],
+      "thisRoundSearch": "重开已知实吃原帖，实际读完17条评论；未另搜独立实吃。",
+      "key": "shimatou",
+      "area": "庙子湖",
+      "pageDecision": "有条件可选"
+    },
+    {
+      "name": "海珍珠餐厅",
+      "status": "有条件可选，可作默认展开",
+      "branchMatch": "原文海珍珠p5-p6，夏日比海民宿老板开的店，明确庙子湖。",
+      "recommendation": "4日晚餐/5日早午餐候选，先确认供餐与当日价格；网页说“一篇2025国庆实吃认可”而非多源口碑已确认。",
+      "notes": [
+        {
+          "title": "在舟山吃的饭",
+          "author": "jinx（每天都吃牛排版",
+          "url": "https://xhslink.cn/o/1DOwesojjWg",
+          "date": "2025-10-07",
+          "正文小结": "作者2025国庆到访。妈妈菜段明确沈家门：认可梭子蟹、捞汁海鲜、椒盐玉秃鱼，等位约半小时但上菜快。海珍珠p5-p6：作者所住夏日比海民宿老板开的店，称海鲜新鲜、梭子蟹肉肥、海鲜炒饭好吃。Hola p7-p9：两次用餐，认可烤鱼、炒年糕、豆腐汤、手撕包菜；明确称p7酱骨蟹用液氮冷冻蟹，两次均等半小时以上上菜。",
+          "comments观察": [
+            {
+              "author": "Sr雪碧",
+              "date": "2025-10-08",
+              "observation": "问妈妈菜梭子蟹贵不贵；不是海珍珠或Hola价格。"
+            },
+            {
+              "author": "jinx（每天都吃牛排版",
+              "date": "2025-10-08",
+              "observation": "作者回复妈妈菜蟹“好像是两只169”；这是回忆的2025消费，不是现价。"
+            },
+            {
+              "author": "Sr雪碧",
+              "date": "2025-10-08",
+              "observation": "已展开的回复节点没有可读正文（可能表情），不作为餐饮实吃证据。"
+            },
+            {
+              "author": "🎈singkwong👑",
+              "date": "2025-10-31",
+              "observation": "问岛上能否微信支付；未见作者回复。"
+            }
+          ],
+          "readCount": 4,
+          "totalCount": 4,
+          "countScope": "本轮通过自建 Chrome 标签实时读取；readCount含已展开回复。共用原帖在不同餐厅重复引用，不能重复累加为独立口碑。",
+          "limitations": "评论已展开并读到THE END；四条评论没有海珍珠或Hola口味、新鲜度的独立验证。作者住同老板民宿是已知消费背景，不能据此断言广告。冷冻蟹是作者陈述，不能扩大为全部海鲜不新鲜或食品安全结论。"
+        }
+      ],
+      "thisRoundSearch": "实际读完jinx共用原帖4条评论，没有海珍珠独立评论；未另做店名搜索。",
+      "key": "haizhenzhu",
+      "area": "庙子湖",
+      "pageDecision": "有条件可选"
+    },
+    {
+      "name": "东隅海鲜排档",
+      "status": "有条件备选",
+      "branchMatch": "正文明确庙子湖东隅大排档；含混负评不纳入。",
+      "recommendation": "风雨和上坡路线可接受时再选；先核价目和出餐，5日不为它额外绕路。",
+      "notes": [
+        {
+          "title": "阴天的东极岛好适合拍情绪片，附攻略",
+          "author": "小眠羊",
+          "url": "https://xhslink.cn/o/5GJ1xZzMi53",
+          "date": "编辑于2025-06-07",
+          "正文小结": "庙子湖第一天到东隅大排档，称明码标价可团购；现场点菜，推荐椒盐豆腐鱼、爆炒花蛤（肉大少沙），老板抹零。第二天海鲜面腌货腥说的是“东极海鲜面馆”，不属于东隅或小林。",
+          "comments观察": "4条全部实际读完，内容为照片、天气或拍摄地点询问；没有东隅餐饮独立好评、差评或可验证商家回复。",
+          "readCount": 4,
+          "totalCount": 4,
+          "countScope": "本轮通过自建 Chrome 标签实时读取；readCount含已展开回复。共用原帖在不同餐厅重复引用，不能重复累加为独立口碑。",
+          "limitations": "读到THE END，主要餐饮证据是一篇2025具体正文；评论不加强餐饮结论。Hola帖子内米奇负评被指店名混淆而无法核实，未转移给东隅。近期“人间小蚂蚁”游记原档本轮未重开，不算本轮评论复核。"
+        }
+      ],
+      "thisRoundSearch": "重开小眠羊实吃原帖，实际读完4条评论；未另做店名搜索，近期游记仅历史原档。",
+      "key": "dongyu",
+      "area": "庙子湖",
+      "pageDecision": "有条件可选"
+    },
+    {
+      "name": "小林海鲜面馆",
+      "status": "降级：本次不优先",
+      "branchMatch": "2024原帖标题明确庙子湖“小林海鲜面馆”；没有把“小林海鲜排挡”或“东极海鲜面店”差评归入。",
+      "recommendation": "移至末尾并提示有明确点名的旧差评；不写食品安全结论。如仍考虑，先看当日价目和现场食材，早餐/出餐/外带未确认。",
+      "notes": [
+        {
+          "title": "东极岛庙子湖美食避雷，小林海鲜面馆",
+          "author": "口吐芬芳艺术家",
+          "url": "https://www.xiaohongshu.com/explore/6710f43e0000000021003170?xsec_token=ABqdci2t8f3M9JjuMLCOBCsIkWBPCiiOt7fuWVZpqMoqQ=&xsec_source=pc_search&source=web_note_detail_r10",
+          "date": "2024-10-17",
+          "正文小结": "本轮小红书实际搜索“庙子湖 小林 海鲜面馆”取得并打开原帖；标题同时点名庙子湖与小林海鲜面馆，正文称海鲜面气味难接受、一口吃不下。",
+          "comments观察": [
+            {
+              "author": "✨miss💫",
+              "date": "2024-10-17",
+              "observation": "称发现晚了已经踩坑，还点了海鲜；第一人称负向反馈但无菜品账单细节。"
+            },
+            {
+              "author": "口吐芬芳艺术家",
+              "date": "2024-10-17",
+              "observation": "作者回复点完另一桌才偷偷说不好吃；属于作者转述，不能算又一个独立账户实吃。"
+            },
+            {
+              "author": "大大胖胖糖",
+              "date": "2024-10-17",
+              "observation": "“看着就不好吃”是外观判断，不算实际用餐。"
+            }
+          ],
+          "readCount": 3,
+          "totalCount": 3,
+          "countScope": "本轮通过自建 Chrome 标签实时读取；readCount含已展开回复。共用原帖在不同餐厅重复引用，不能重复累加为独立口碑。",
+          "limitations": "评论读到THE END；这是2024主观体验，不能当作2026食材不安全的事实。标题店名匹配，但本轮没有进一步确认差评图的完整门牌地址。另有一条“小林海鲜排挡”评论指向未核实，不纳入。搜索另打开码头简餐帖，首图店招“东极海鲜面店”，明确不同店，相关冷冻虾评论排除。"
+        }
+      ],
+      "thisRoundSearch": "实际店名搜索并打开明确差评原帖，读完3条；另打开一篇码头简餐实吃并看首图，确定是东极海鲜面店，排除。",
+      "key": "xiaolin",
+      "area": "庙子湖",
+      "pageDecision": "本次不优先"
+    },
+    {
+      "name": "留夏甜品",
+      "status": "有条件茶歇",
+      "branchMatch": "两篇原文与root取得店招对应庙子湖倒陡街留夏。",
+      "recommendation": "散步顺路、预算允许才停；可一份甜品分享，不排为正餐，不宣称便宜或必去。",
+      "notes": [
+        {
+          "title": "庙子湖美食红黑榜",
+          "author": "我早上七点半上班",
+          "url": "https://xhslink.cn/o/5eQImHYIYFh",
+          "date": "编辑于2024-08-31",
+          "正文小结": "石码头：2–3人团购加水煮牛肉，四女生吃饱，人均约100；认可甜口新加坡酱梭子蟹，2024当时午间人少。留夏：认可小食饮料及店内氛围，记录人均80–100。",
+          "comments观察": [
+            {
+              "author": "小羊困了嘛/作者",
+              "date": "2024-08-30",
+              "observation": "问搜不到团购。作者明确店叫石码头，昨天还有的2–3人300多元团购没了，只剩5–6人餐；不能把四人账单改写为当前两人套餐。"
+            },
+            {
+              "author": "thqby",
+              "date": "2025-12-21",
+              "observation": "仅写避雷庙子湖“小林海鲜排挡”，无原因、无地址；店名与小林海鲜面馆不同，不能直接归面馆。"
+            },
+            {
+              "author": "BMW",
+              "date": "05-19（年份未显示）",
+              "observation": "称老街一家店态度差，没说明店名；不归石码头或留夏。"
+            },
+            {
+              "author": "喵柒柒及作者",
+              "date": "2024-08-31",
+              "observation": "说舟府带鱼108元六块和皮皮虾体验；明确其他店，不归本轮餐厅。"
+            },
+            {
+              "author": "1111",
+              "date": "2024-09-09",
+              "observation": "邀请到东极石卧槽民宿尝尝，有引流性质，不作独立餐饮好评。"
+            },
+            {
+              "author": "其余已读评论",
+              "date": null,
+              "observation": "地点询问、泛旅游玩笑等；未读到明确归属于留夏的餐饮差评或可验证商家回应。"
+            }
+          ],
+          "readCount": 17,
+          "totalCount": 17,
+          "countScope": "本轮通过自建 Chrome 标签实时读取；readCount含已展开回复。共用原帖在不同餐厅重复引用，不能重复累加为独立口碑。",
+          "limitations": "展开回复并读完17条至THE END。2024团购与人流不是2026国庆保证；石码头缺少本轮独立实吃交叉验证。未指名差评不归本店。"
+        },
+        {
+          "title": "庙子湖岛必走的绝美轻松路线",
+          "author": "飞天大蓝莓",
+          "url": "https://xhslink.cn/o/20JaVc59e8S",
+          "date": "2025-05-27",
+          "正文小结": "倒陡街路线p7留夏，称甜品、咖啡都不便宜，味道还行，店内氛围适合休息，有电源wifi。",
+          "comments观察": "实际滚动至THE END、展开全部可见相关回复；52条主要是路线、拍照、花卉、相机与步行时间问答，没有留夏菜品独立评价或商家回复。",
+          "readCount": 52,
+          "totalCount": 52,
+          "countScope": "本轮通过自建 Chrome 标签实时读取；readCount含已展开回复。共用原帖在不同餐厅重复引用，不能重复累加为独立口碑。",
+          "limitations": "已读52条不能写成52条餐饮好评。正文支持顺路休息与价格偏高，不支持必去或高性价比；设施、菜单、营业时间和携宠仍需当前确认。"
+        }
+      ],
+      "thisRoundSearch": "重开两篇已知原帖，实际读完17和52条评论；没有本店餐饮评论交叉验证。",
+      "key": "liuxia",
+      "area": "庙子湖",
+      "pageDecision": "有条件可选"
+    },
+    {
+      "name": "海享莱海鲜海景餐厅",
+      "status": "资料备选：供餐待确认",
+      "branchMatch": "现有平台/住宿对应庙子湖海享莱；本轮搜索候选SeaHi、东聚味均非本店。",
+      "recommendation": "仅保留近住处资料与天气不好时的询餐入口；先用住宿订单问是否接餐、菜单、供餐时段、外带和携宠。不称已验证好吃或已经订餐。",
+      "notes": [
+        {
+          "title": "本轮实际店名检索与原档复核",
+          "author": null,
+          "url": null,
+          "date": "2026-10-02",
+          "正文小结": "本轮在小红书实际搜索“庙子湖 海享莱 餐厅”，结果确实加载。打开最前候选“东极岛｜海边的浪漫，被这家餐厅狠狠拿捏了✨”，正文实际店名SeaHi餐酒吧；再打开近期“东极岛美食评价”，庙子湖部分是东聚味餐厅、海边咖啡，非海享莱。现有海享莱原档是住宿/门前广场，不能替代餐饮实吃。",
+          "comments观察": "未取得明确归属于海享莱的独立餐饮正文或本店评论。Hola帖子一人问“海享莱怎么不去”，没有实吃内容，不计好评。",
+          "readCount": 0,
+          "totalCount": null,
+          "countScope": "本轮通过自建 Chrome 标签实时读取；readCount含已展开回复。共用原帖在不同餐厅重复引用，不能重复累加为独立口碑。",
+          "limitations": "实际搜索过，未取得本店餐饮评论不等于差评。非目标店候选仅读正文与首屏后排除，未继续展开全部评论。当前只能保存地点/近住处供餐资料；本次是否接餐、时段、菜单、外带和携宠未确认。"
+        }
+      ],
+      "thisRoundSearch": "实际搜索过，打开两条候选检查正文；均非本店，无海享莱可归属的实际餐饮评论。",
+      "key": "haixianglai",
+      "area": "庙子湖",
+      "pageDecision": "仅资料备选"
+    },
+    {
+      "name": "川海人家南沙总店",
+      "status": "降级：撤出默认主选，南沙总店仅作为资料备选",
+      "branchMatch": "现有 OTA 地址能核南沙总店；本轮两篇实吃均不能严格归到南沙总店：安小可未写分店，另一篇明确东沙威斯汀附近。不能把品牌差评或其他分店好评移植。",
+      "notes": [
+        {
+          "title": "避雷川海人家，三个菜900元",
+          "author": "安小可",
+          "url": "https://www.xiaohongshu.com/explore/6a7b1e080000000008011681?xsec_token=ABWT-aoPkYXDGycoApVokO_u25u6HbvssYKSZj-I6vwCY=&xsec_source=pc_search&source=web_search_result_notes",
+          "date": "编辑于08-13；界面未显示年份",
+          "正文小结": "作者记录单点2.2斤波士顿龙虾、海肠捞饭和椒盐皮皮虾。称咸蛋黄龙虾过咸、个人觉得不够新鲜；当场反馈后原998收860。正文怀疑换虾并非已经证实，不应转写为店家行为事实。",
+          "comments观察": [
+            "实际阅读21/51条，展开了2条回复及一个1条回复串；仍有其他未展开回复。",
+            "有自称本地人的泛泛批评和吃海鲜建议，这些不能证明同一分店质量或当前价格。",
+            "我是YHY是我认为明码标价与点菜有关，称家庭连续多年吃川海、口味可能偏重；作者回复个人感受仍是不新鲜和很咸。",
+            "拍照的称也去过，展开追问后补充服务好，是与一边倒差评不同的意见。",
+            "有人问点评300多套餐，作者说明自己现场单点；高账单不能直接用作两人普通套餐报价。",
+            "未见明确商家回应；未读完全部51条。"
+          ],
+          "readCount": 21,
+          "totalCount": 51,
+          "limitations": [
+            "分店未明，不可据此认定南沙总店差。",
+            "单次作者体验，现场称重及肉质怀疑都未获得独立验证。"
+          ]
+        },
+        {
+          "title": "舟山朱家尖Ⅰ人均120の川海人家海鲜排档",
+          "author": "再玩一会就收手",
+          "url": "https://www.xiaohongshu.com/explore/6a800de500000000260351cd?xsec_token=ABnQ1a2tzvID_8jKmSdbkUpPQVaxgfdL5QrediNJeGRhQ=&xsec_source=pc_search",
+          "date": "08-15；界面未显示年份",
+          "正文小结": "作者称距东沙威斯汀近，价格不夸张、阿姨服务好、活鲜陈列明显；具体提到家烧带鱼、蒜蓉扇贝，也提到部分菜有未清干净沙砾。",
+          "comments观察": [
+            "界面显示无评论。"
+          ],
+          "readCount": 0,
+          "totalCount": 0,
+          "limitations": [
+            "东沙附近，不能作为南沙总店好评。",
+            "标题人均120是作者当次记录，不是当前菜单。"
+          ]
+        }
+      ],
+      "limitations": [
+        "没有足够严格匹配南沙总店的独立实吃及评论，撤主选是证据不足，不是判定店铺差。"
+      ],
+      "key": "chuanhairenjia",
+      "area": "南沙及顺路",
+      "pageDecision": "仅资料备选"
+    },
+    {
+      "name": "金海湾朱家尖店",
+      "status": "有条件保留：南沙正餐备选，先核鲜活/冷冻与总价",
+      "branchMatch": "正文明确金海湾海鲜排档（朱家尖店），话题明确朱家尖南沙；与当前南沙候选匹配。",
+      "notes": [
+        {
+          "title": "舟山金海湾海鲜排档",
+          "author": "两碗芋圆",
+          "url": "https://www.xiaohongshu.com/explore/6a0bed020000000035027fea?xsec_token=ABaONOqqLKg7JnoujNL-qFyB2y8-M7kl3cpFfdMZG22Xs=&xsec_source=pc_search",
+          "date": "编辑于05-19；界面未显示年份",
+          "正文小结": "两位成人带7月龄婴儿出行。认可大黄鱼、海鲜炒饭及服务；花螺有几个品质不好，反馈后这道菜免费退掉。用代金券并退菜后实付385，不可当作标准两人报价。",
+          "comments观察": [
+            "2/2条已读到 THE END。",
+            "Zhanghaha 05-24问禁渔期是否还有皮皮虾。",
+            "作者05-25回答：老板提前告知是冷冻的，自己吃起来感觉还好。",
+            "这是当次禁渔期作者澄清，不是商家隐瞒冷冻的投诉；也不能推论当前国庆所有皮皮虾均冷冻。"
+          ],
+          "readCount": 2,
+          "totalCount": 2,
+          "limitations": [
+            "一篇独立笔记样本，花螺问题和退菜处理需同时保留。",
+            "本次未再找第二篇同店实吃；没有证明国庆当前食材或菜价。"
+          ]
+        }
+      ],
+      "limitations": [
+        "适合作为利弊已展示的有条件备选，不足以称强主推。"
+      ],
+      "key": "jinhaiwan",
+      "area": "南沙及顺路",
+      "pageDecision": "有条件可选"
+    },
+    {
+      "name": "半海屿南沙店",
+      "status": "有条件保留：有独立服务经历，但口碑证据仍有限",
+      "branchMatch": "两篇均明确南沙附近半海屿，与现有金沙路343号资料在区域和店名上匹配；原帖未展示精确门牌。",
+      "notes": [
+        {
+          "title": "舟山｜南沙景区｜美食攻略（不踩雷版）",
+          "author": "三文鱼肉松饼",
+          "url": "https://www.xiaohongshu.com/explore/6a1b9dd100000000370370d7?xsec_token=AB5CdxMXp_vxWkwJxBACb0IPWDU0EFDV3naixtCRz_F0U=&xsec_source=pc_search&source=web_search_result_notes",
+          "date": "05-31；界面未显示年份",
+          "正文小结": "明确南沙景区门外，标签半海屿。写四人海鲜拼盘、清蒸鱼、面包蟹、锅巴虾、海星花甲炒面，并称打包炒面作夜宵及老板送发夹。",
+          "comments观察": [
+            "实际读14/15条；没有读到 THE END。",
+            "两位询问人均，作者答一百出头/一百多点。",
+            "其余多为鲜、丰盛、想吃、mark等泛感想，未提供自己的到店账单、排队、食材或称重经历。",
+            "没有可见明确商家回复。"
+          ],
+          "readCount": 14,
+          "totalCount": 15,
+          "limitations": [
+            "文风较推广式，未见账单，不能认定独立实吃强证据。",
+            "评论数量不能当作14位食客的好评。"
+          ]
+        },
+        {
+          "title": "来尝尝半海屿，不会让你失望的",
+          "author": "momo",
+          "url": "https://www.xiaohongshu.com/explore/6874a73d0000000010025c5b?xsec_token=ABh_gVLbpvsM7G1RiCZnAZF_pgNAWriVHJ8iJOVE1Pm2g=&xsec_source=pc_search",
+          "date": "2025-07-14",
+          "正文小结": "旅行最后一餐称食材新鲜、调味好、距南沙近；具体记载遗落婴儿车，到高速休息区充电才发现，店家次日用顺丰寄回。这是可辨识的具体服务经历。",
+          "comments观察": [
+            "界面显示无评论。"
+          ],
+          "readCount": 0,
+          "totalCount": 0,
+          "limitations": [
+            "没有菜名、账单或等待时长，食品口碑只能作为一个作者的泛评价。",
+            "一年前经历，不保证当前国庆服务。"
+          ]
+        }
+      ],
+      "limitations": [
+        "可展示具体服务体验，但不应升级为南沙强主推。"
+      ],
+      "key": "banhaiyu",
+      "area": "南沙及顺路",
+      "pageDecision": "有条件可选"
+    },
+    {
+      "name": "海边人家朱家尖店",
+      "status": "降级：仅资料备选",
+      "branchMatch": "现有地图为南沙路89号，南沙西门岗对面；本轮未取得能匹配该门店的实吃正文或评论。",
+      "notes": [],
+      "readCount": 0,
+      "totalCount": null,
+      "limitations": [
+        "实际搜索海边人家 朱家尖 南沙，又使用界面可见的舟山南沙海边人家海鲜城搜索建议；首屏多为游玩/拍照笔记。",
+        "打开看似消费相关的该花的💰还是得花啊后，确认全文是付费拍照，不属于餐厅；已排除，不把其评论计入餐饮覆盖。",
+        "浏览器权限中止前未继续查到精确门店实吃。没有证据判差，也没有证据做口碑主推。",
+        "当前仅地图/菜单资料，不得冠以小红书已验证推荐。"
+      ],
+      "key": "haibianrenjia",
+      "area": "南沙及顺路",
+      "pageDecision": "仅资料备选"
+    },
+    {
+      "name": "南沙老丁早餐",
+      "status": "不推荐作为默认早餐：有具体负面经历，撤出优先选择",
+      "branchMatch": "海上扁舟标题明确朱家尖南沙旁边老丁，正文称沙洋民宿下面；另一篇明确朱家尖老丁。区域和店名匹配，但本帖没有直接展示南沙路57号门牌。",
+      "notes": [
+        {
+          "title": "避坑朱家尖南沙旁边20年老店老丁早餐",
+          "author": "海上扁舟",
+          "url": "https://www.xiaohongshu.com/explore/69d1cf8f000000002301cb83?xsec_token=AB8nIzP2Oh6wFRMUpDM-NytvcccSctgMAVRQf37AeDiso=&xsec_source=pc_search&source=web_search_result_notes",
+          "date": "04-05；界面未显示年份",
+          "正文小结": "作者就近用餐，具体描述筷子有油、店员抹桌后徒手拿油条，并称上菜混乱约15分钟；黄鱼馄饨40元10只、小笼12元6个、海鲜面30元，觉得价量与味道不合。",
+          "comments观察": [
+            "界面显示无评论；没有商家回复可读。"
+          ],
+          "readCount": 0,
+          "totalCount": 0,
+          "limitations": [
+            "卫生描述是作者单次观察，未独立核查，不应直接宣称为已证实店铺卫生事实。",
+            "未展示门牌和完整账单。"
+          ]
+        },
+        {
+          "title": "强烈避雷！💣 朱家尖老丁早餐店！",
+          "author": "背包里的猫",
+          "url": "https://www.xiaohongshu.com/explore/67a2a8d30000000028036ca2?xsec_token=ABTLCRdWQctX7aHNJCY-Nx5WZ0CcUBwPDZhKUgzjli1dg=&xsec_source=pc_search",
+          "date": "2025-02-05",
+          "正文小结": "作者看日出后用餐，记录包子/馒头/茶叶蛋3元、豆浆5元，称水煮蛋发黄有异味，包子口感差。",
+          "comments观察": [
+            "1/1条读到 THE END。",
+            "momo 2025-02-20称前年去时炒年糕好吃，并开玩笑可能因喝多；这是不同意见，不能称评论一边倒。",
+            "未见商家回应。"
+          ],
+          "readCount": 1,
+          "totalCount": 1,
+          "limitations": [
+            "正文是个人负面体验，评论有正面意见。",
+            "品牌/区域匹配，精确门牌未显示；不可扩大为所有同名老丁店。"
+          ]
+        }
+      ],
+      "limitations": [
+        "选择默认早餐需要较稳的品质与节奏，这两篇具体负面足以降低行程优先级；并非对店铺做整体卫生结论。"
+      ],
+      "key": "laoding",
+      "area": "南沙及顺路",
+      "pageDecision": "本次不优先"
+    },
+    {
+      "name": "食光南沙路",
+      "status": "保留：仅轻食资料备选，口碑待核",
+      "branchMatch": "现有 OTA 地址为南沙路68号；本轮搜索食光 南沙路 舟山，未找到能匹配的食品笔记。",
+      "notes": [],
+      "readCount": 0,
+      "totalCount": null,
+      "limitations": [
+        "本輪首屏多数为其他海鲜店/泛美食笔记，未打开无店名证据的结果冒充本店实吃。",
+        "不是差评结论，也不是小红书口碑推荐。",
+        "营业、次日早开门与轻食品质未核。"
+      ],
+      "key": "shiguang",
+      "area": "南沙及顺路",
+      "pageDecision": "仅资料备选"
+    },
+    {
+      "name": "船说小乌石塘",
+      "status": "有条件保留：已在小乌石塘再考虑，门牌及宠物待核",
+      "branchMatch": "蛋清正文明确第一天在小乌石塘海边的船说；未给门牌，不能确认地图精确点位。",
+      "notes": [
+        {
+          "title": "舟山朱家尖带猫猫狗狗两日游",
+          "author": "蛋清不是蛋白🥚",
+          "url": "https://www.xiaohongshu.com/explore/6a70428c000000003302d229?xsec_token=CBDfvf0Dj_xXiuyRSoqtF9HHoIFHai4i-ZoMOmo-VnoUg=&xsec_source=app_share",
+          "shareUrl": "https://xhslink.cn/o/7KvouIfza8E",
+          "date": "编辑于08-03；界面未显示年份",
+          "正文小结": "完整旅行流水账，称船说海鲜团餐两百多不到三百、服务还可以、海鲜新鲜，另有清蒸石斑未拍。相较泛推广，有具体当次花费与行程细节。",
+          "comments观察": [
+            "展开3条回复，5/5条已读到 THE END。",
+            "所有评论均围绕民宿名字和住宿价格；作者答碧海宸曦、提前订不到300。",
+            "住宿不到300不能当作餐费；评论没有独立餐厅实吃、排队、重量或狗入店确认。",
+            "未见餐厅商家回复。"
+          ],
+          "readCount": 5,
+          "totalCount": 5,
+          "limitations": [
+            "带猫狗旅行标签不能证明13.7kg犬可进餐厅。",
+            "一篇作者样本，没有第二份食品评论佐证。",
+            "图七与小舢板图6/7标注重叠，食品图归属仍需另核。"
+          ]
+        }
+      ],
+      "limitations": [
+        "6日早返杭，不为这家延后出发。"
+      ],
+      "key": "chuanshuo",
+      "area": "南沙及顺路",
+      "pageDecision": "有条件顺路备选"
+    },
+    {
+      "name": "小舢板原老妈（朱家尖东沙）",
+      "status": "有条件保留：顺路备选，取消平价暗示，蟹加整鱼可能超500元",
+      "branchMatch": "两篇均明确小舢板原老妈朱家尖店；现有 OTA 位于东沙东荷嘉园59栋101，非南沙酒店近处。原帖未展示门牌，不以泛朱家尖好评代替路线核对。",
+      "notes": [
+        {
+          "title": "舟山朱家尖带猫猫狗狗两日游",
+          "author": "蛋清不是蛋白🥚",
+          "url": "https://www.xiaohongshu.com/explore/6a70428c000000003302d229?xsec_token=CBDfvf0Dj_xXiuyRSoqtF9HHoIFHai4i-ZoMOmo-VnoUg=&xsec_source=app_share",
+          "shareUrl": "https://xhslink.cn/o/7KvouIfza8E",
+          "date": "编辑于08-03；界面未显示年份",
+          "正文小结": "作者返程前试小舢板，评价味道是两天最好、服务很好；未给菜名、账单和等位时长。",
+          "comments观察": [
+            "与船说引用同篇5/5评论，全部住宿问答，没有食品或携宠餐厅佐证；总评论数去重计。"
+          ],
+          "readCount": 5,
+          "totalCount": 5,
+          "limitations": [
+            "正文称图6/7，但又把船说标图7，食品图对应存在混淆。",
+            "一个旅行作者样本，不能因为评论区热闹提升食品口碑强度。"
+          ]
+        },
+        {
+          "title": "大排档是真的贵啊",
+          "author": "化工人在摄影",
+          "url": "https://www.xiaohongshu.com/explore/68e3b81d0000000004015b0f?xsec_token=ABYMKz0LplOCh_hE7-FtH_kZlichk_vimLo8rkUvt8l0c=&xsec_source=pc_search&source=web_search_result_notes",
+          "date": "编辑于2025-10-06",
+          "正文小结": "明确小舢板原老妈朱家尖店。两人4菜560元，两只梭子蟹270、石斑240，均188元/斤。作者称菜中规中矩，明确明码标价、不避雷，只反对小红书夸成平价。",
+          "comments观察": [
+            "实际读25/101条；展开了15条及13条两串的首批回复，仍显示展开更多回复，未全部读完。",
+            "有人称贵、也有人按假期大蟹品质和饭店成本认为正常；不能只取其中一方写宰客。",
+            "作者在中秋菜场价解释后表示明白；本人已承认明码标价。",
+            "冰冰. 2025-10-08称4日实际吃过，品质好、大菜略贵、想再去但希望不排队，这是独立到店正面细节。",
+            "价格争论多数不是同店到访记录，没有可确认缺斤短两证据。",
+            "未见明确商家回复，剩余76条及未加载回复未读。"
+          ],
+          "readCount": 25,
+          "totalCount": 101,
+          "limitations": [
+            "560是2025国庆这组菜的个人账单，不是当前报价或所有两人用餐的最低消费。",
+            "蟹+整鱼使220–320预算容易失真；控制组合、先定总价再点。"
+          ]
+        }
+      ],
+      "limitations": [
+        "可作为已在东沙且路线顺路时的备选；不应专程绕路，也不宜以平价主推。"
+      ],
+      "key": "xiaoshanban",
+      "area": "南沙及顺路",
+      "pageDecision": "有条件顺路备选"
+    }
+  ]
+}

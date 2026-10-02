@@ -94,6 +94,8 @@
 .food-photo-note{margin:0 0 16px;font-size:14px;line-height:1.85;color:var(--muted)}.photo-pending{font-size:14px;color:var(--muted)}
 .food-region{min-width:0;align-self:start;scroll-margin-top:86px;padding:22px}
 .food-region>h3{margin:0 0 8px;font-size:20px}.food-region>p{font-size:14px;line-height:1.8;margin:0 0 16px}
+.food-review-note,.food-region>.food-region-verdict{min-width:0;margin:0 0 16px;padding:12px 14px;border:1px solid var(--line);border-radius:8px;background:#f7f3ed;color:var(--ink);font-size:14px;line-height:1.8;overflow-wrap:anywhere}
+.food-review-note p{margin:0}.food-review-note p+p{margin-top:6px}
 .restaurant{min-width:0;border-top:1px solid var(--line);overflow-wrap:anywhere}
 .restaurant>summary{display:grid;grid-template-columns:minmax(0,1fr) 20px;gap:3px 8px;min-height:44px;padding:12px 0;cursor:pointer;list-style:none}
 .restaurant>summary::-webkit-details-marker{display:none}.restaurant>summary::marker{content:""}
@@ -106,6 +108,11 @@
 .restaurant.restaurant-with-photo>summary strong{grid-column:2;grid-row:1}
 .restaurant.restaurant-with-photo>summary .restaurant-meta{grid-column:2;grid-row:2}
 .restaurant.restaurant-with-photo>summary::after{grid-column:3}
+.review-status{display:block;width:fit-content;min-width:0;max-width:100%;margin-top:4px;padding:2px 7px;border:1px solid var(--line);border-radius:5px;color:#62636c;background:#f2f2f4;font-size:14px;font-weight:650;line-height:1.65;overflow-wrap:anywhere}
+.review-conditional{color:#6b5127;background:#f7f2e8;border-color:#d5c4a5}.review-caution{color:#784c43;background:#f9efeb;border-color:#d8beb4}.review-unverified{color:#62636c;background:#f2f2f4;border-color:#d6d6dd}
+.restaurant>summary>.review-status{grid-column:1;grid-row:2;justify-self:start;margin-top:0}.restaurant.restaurant-with-photo>summary>.review-status{grid-column:2}
+.restaurant>summary:has(>.review-status)>.restaurant-meta{grid-row:3}
+.restaurant>summary:has(>.review-status)>.restaurant-thumb,.restaurant>summary:has(>.review-status)::after{grid-row:1/span 3}
 .restaurant-body{padding:0 0 16px;min-width:0}.restaurant-body p{margin:0 0 10px;font-size:14px;line-height:1.85;color:var(--muted)}
 .restaurant-photo{min-width:0;margin:0 0 12px}
 .restaurant-photo>img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:8px;background:var(--pale)}
@@ -124,3 +131,4 @@
 @media(max-width:700px){.food-grid{grid-template-columns:minmax(0,1fr)}.food-region{padding:20px}.restaurant>summary strong{font-size:16px}.food-extras{padding:18px 20px}}
 @media(max-width:380px){.restaurant.restaurant-with-photo>summary{grid-template-columns:64px minmax(0,1fr) 20px;column-gap:8px}.restaurant-thumb{width:64px;height:64px}}
 @media print{.food-jumps,.restaurant-thumb,.restaurant-photo{display:none}.food-grid{display:block}.food-region{break-inside:auto;margin-bottom:16px}.restaurant{break-inside:avoid}.restaurant>.restaurant-body{display:block!important}.restaurant::details-content{content-visibility:visible!important;height:auto!important}.restaurant>summary::after{display:none}.restaurant>summary,.restaurant.restaurant-with-photo>summary{grid-template-columns:minmax(0,1fr);padding-bottom:6px}.restaurant.restaurant-with-photo>summary strong,.restaurant.restaurant-with-photo>summary .restaurant-meta{grid-column:1;grid-row:auto}.restaurant-body{padding-bottom:12px}.food-extras{break-inside:avoid}}
+@media print{.review-status{color:var(--ink);background:white;border-color:var(--line)}.restaurant>summary>.review-status,.restaurant>summary:has(>.review-status)>.restaurant-meta{grid-column:1;grid-row:auto}.food-review-note,.food-region>.food-region-verdict{background:white;break-inside:avoid}}
