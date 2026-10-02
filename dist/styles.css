@@ -91,6 +91,7 @@
 /* Keep restaurant choices compact while preserving native details controls. */
 .food-jumps{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
 .food-jumps a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border:1px solid var(--line);border-radius:100px;background:var(--white);color:var(--teal);font-size:14px;font-weight:750;text-decoration:none;overflow-wrap:anywhere}
+.food-photo-note{margin:0 0 16px;font-size:14px;line-height:1.85;color:var(--muted)}.photo-pending{font-size:13px;color:var(--muted)}
 .food-region{min-width:0;align-self:start;scroll-margin-top:86px;padding:22px}
 .food-region>h3{margin:0 0 8px;font-size:20px}.food-region>p{font-size:14px;line-height:1.8;margin:0 0 16px}
 .restaurant{min-width:0;border-top:1px solid var(--line);overflow-wrap:anywhere}
@@ -100,7 +101,19 @@
 .restaurant-meta{min-width:0;grid-column:1;font-size:14px;line-height:1.65;color:var(--muted)}
 .restaurant>summary::after{content:"+";grid-column:2;grid-row:1/span 2;align-self:center;text-align:center;color:var(--teal);font-size:23px;line-height:1}
 .restaurant[open]>summary::after{content:"−"}.restaurant[open]>summary strong{color:var(--teal)}
+.restaurant.restaurant-with-photo>summary{grid-template-columns:72px minmax(0,1fr) 20px;column-gap:12px}
+.restaurant-thumb{display:block;grid-column:1;grid-row:1/span 2;align-self:center;width:72px;height:72px;max-width:100%;object-fit:cover;border-radius:8px;background:var(--pale)}
+.restaurant.restaurant-with-photo>summary strong{grid-column:2;grid-row:1}
+.restaurant.restaurant-with-photo>summary .restaurant-meta{grid-column:2;grid-row:2}
+.restaurant.restaurant-with-photo>summary::after{grid-column:3}
 .restaurant-body{padding:0 0 16px;min-width:0}.restaurant-body p{margin:0 0 10px;font-size:14px;line-height:1.85;color:var(--muted)}
+.restaurant-photo{min-width:0;margin:0 0 12px}
+.restaurant-photo>img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:8px;background:var(--pale)}
+.restaurant-photo>figcaption{margin-top:4px;font-size:13px;line-height:1.65;color:var(--muted);overflow-wrap:anywhere}
+.restaurant-photo>figcaption a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;max-width:100%;padding:4px 6px;color:var(--teal);font-weight:750;text-underline-offset:3px;overflow-wrap:anywhere}
+.restaurant-photo>figcaption a:hover{background:var(--pale);color:var(--ink)}
+.food-extras .restaurant-photo{float:right;width:min(34%,320px);margin:0 0 12px 22px}.food-extras:after{content:"";display:block;clear:both}
+@media(max-width:700px){.food-extras .restaurant-photo{float:none;width:100%;margin:14px 0}}
 .restaurant-links{display:flex;flex-wrap:wrap;gap:6px}
 .restaurant-links a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:6px;color:var(--teal);font-size:14px;line-height:1.5;font-weight:750;text-decoration:none;overflow-wrap:anywhere}
 .restaurant-links .place-link+.place-link{margin-left:0}.restaurant-links a:hover,.food-jumps a:hover{background:var(--pale);color:var(--ink)}
@@ -108,4 +121,5 @@
 .food-extras h3{margin:0 0 8px;font-size:17px}.food-extras p{margin:7px 0;font-size:14px;color:var(--muted)}
 .food-extras a{display:inline-flex;align-items:center;min-height:44px;margin-right:12px;color:var(--teal);font-size:14px;font-weight:750;text-underline-offset:3px}
 @media(max-width:700px){.food-grid{grid-template-columns:minmax(0,1fr)}.food-region{padding:20px}.restaurant>summary strong{font-size:16px}.food-extras{padding:18px 20px}}
-@media print{.food-jumps{display:none}.food-grid{display:block}.food-region{break-inside:auto;margin-bottom:16px}.restaurant{break-inside:avoid}.restaurant>.restaurant-body{display:block!important}.restaurant::details-content{content-visibility:visible!important;height:auto!important}.restaurant>summary::after{display:none}.restaurant>summary{grid-template-columns:minmax(0,1fr);padding-bottom:6px}.restaurant-body{padding-bottom:12px}.food-extras{break-inside:avoid}}
+@media(max-width:380px){.restaurant.restaurant-with-photo>summary{grid-template-columns:64px minmax(0,1fr) 20px;column-gap:8px}.restaurant-thumb{width:64px;height:64px}}
+@media print{.food-jumps,.restaurant-thumb,.restaurant-photo{display:none}.food-grid{display:block}.food-region{break-inside:auto;margin-bottom:16px}.restaurant{break-inside:avoid}.restaurant>.restaurant-body{display:block!important}.restaurant::details-content{content-visibility:visible!important;height:auto!important}.restaurant>summary::after{display:none}.restaurant>summary,.restaurant.restaurant-with-photo>summary{grid-template-columns:minmax(0,1fr);padding-bottom:6px}.restaurant.restaurant-with-photo>summary strong,.restaurant.restaurant-with-photo>summary .restaurant-meta{grid-column:1;grid-row:auto}.restaurant-body{padding-bottom:12px}.food-extras{break-inside:avoid}}
