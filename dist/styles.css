@@ -132,3 +132,12 @@
 @media(max-width:380px){.restaurant.restaurant-with-photo>summary{grid-template-columns:64px minmax(0,1fr) 20px;column-gap:8px}.restaurant-thumb{width:64px;height:64px}}
 @media print{.food-jumps,.restaurant-thumb,.restaurant-photo{display:none}.food-grid{display:block}.food-region{break-inside:auto;margin-bottom:16px}.restaurant{break-inside:avoid}.restaurant>.restaurant-body{display:block!important}.restaurant::details-content{content-visibility:visible!important;height:auto!important}.restaurant>summary::after{display:none}.restaurant>summary,.restaurant.restaurant-with-photo>summary{grid-template-columns:minmax(0,1fr);padding-bottom:6px}.restaurant.restaurant-with-photo>summary strong,.restaurant.restaurant-with-photo>summary .restaurant-meta{grid-column:1;grid-row:auto}.restaurant-body{padding-bottom:12px}.food-extras{break-inside:avoid}}
 @media print{.review-status{color:var(--ink);background:white;border-color:var(--line)}.restaurant>summary>.review-status,.restaurant>summary:has(>.review-status)>.restaurant-meta{grid-column:1;grid-row:auto}.food-review-note,.food-region>.food-region-verdict{background:white;break-inside:avoid}}
+
+.map-dialog{width:min(430px,calc(100% - 32px));max-height:calc(100dvh - 48px);padding:28px;border:1px solid var(--line);border-radius:16px;background:var(--white);color:var(--ink);box-shadow:0 20px 70px #173b3d33}
+.map-dialog::backdrop{background:#173b3d66}
+.map-dialog-close{position:absolute;top:8px;right:8px;width:44px;height:44px;border:0;background:transparent;color:var(--muted);font-size:28px;cursor:pointer}
+.map-dialog .eyebrow{margin-right:28px}.map-dialog h2{margin:0 0 12px;font-size:25px}
+.map-dialog p{font-size:14px;line-height:1.8;overflow-wrap:anywhere}.map-dialog .map-place{font-weight:750;color:var(--teal)}
+.map-dialog-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.map-dialog-actions .button{min-height:44px;font-size:14px}
+.map-dialog-actions .button-primary{background:var(--teal);color:white}.map-dialog-actions .button-secondary{border:1px solid var(--line);color:var(--teal);background:var(--pale)}
+@media print{.map-dialog{display:none!important}}

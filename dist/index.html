@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#f7f4ed">
   <meta name="description" content="两个人和一只小狗的 2026 国庆舟山、东极岛四日旅行随身计划。">
   <title>我们去看海｜10.03—10.06 舟山旅行</title>
-  <link rel="stylesheet" href="styles.css?v=20261002-food-comments">
-  <script src="app.js?v=20261002-weather" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261003-amap">
+  <script src="app.js?v=20261003-amap" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">跳到行程</a>
@@ -122,7 +122,7 @@
           <article class="stay-card"><div class="stay-date"><strong>05</strong><span>OCT</span></div><div><small>第三晚 · 朱家尖</small><h3>息耒金沙海景酒店</h3><p>180° 海景阳台大床房 · 已付 ¥982</p><div class="stay-actions"><a class="place-link" data-map="息耒金沙海景酒店南沙店" href="https://uri.amap.com/search?keyword=%E6%81%AF%E8%80%92%E9%87%91%E6%B2%99%E6%B5%B7%E6%99%AF%E9%85%92%E5%BA%97%E5%8D%97%E6%B2%99%E5%BA%97&amp;city=%E8%88%9F%E5%B1%B1&amp;view=map&amp;callnative=1&amp;src=dongji-trip-2026" target="_blank" rel="noopener noreferrer">地图 ↗</a><a href="tel:05806631118">联系酒店 ↗</a></div></div></article>
         </div>
       </div>
-      <p class="compact-notice">地图按钮打开地点搜索。出发前按订单地址核对取还车店、酒店与码头入口，并在“确认记录”中记下入口、停车上车点和过夜条件。重要位置另存截图。</p>
+      <p class="compact-notice">手机点击地图按钮可直接打开高德 App 搜索地点；没有打开时，可选网页版。出发前按订单地址核对取还车店、酒店与码头入口，并在“确认记录”中记下入口、停车上车点和过夜条件。重要位置另存截图。</p>
       <p class="booking-note">三晚住宿合计 ¥2,853。息耒金沙曾回复宠物友好、免费；三家对 13.7 kg 小狗的实际接待条件仍需入住前再确认。</p>
       <div class="practical-grid contact-grid">
         <article class="practical-card" id="ship-contact"><span>船班与携宠</span><h3>先看订单，再问两端码头</h3><p>微信搜索认证公众号“舟山海星轮船”“东极海运”，核对去返程订单与当日公告。确认两班携宠名额、肩高、笼包及避风雨安置区域。</p><div class="contact-actions"><a href="tel:05803016999">半升洞客运 0580-3016999</a><a href="tel:05808130888">东极客运 0580-8130888</a><a href="https://zj.weather.com.cn/dsxw/09/4807717.shtml" target="_blank" rel="noopener noreferrer">沿海风力展望 ↗</a></div><p class="compact-notice">码头电话据 2024 年官方报道，未拨打确认；号码变化时使用订单内客服。当日海况看最新发布。</p></article>
@@ -213,5 +213,14 @@
   </main>
   <footer class="footer"><div class="shell footer-inner"><div><span class="footer-symbol">◒</span><strong>我们去看海。</strong><small>杭州 → 沈家门 → 庙子湖 → 朱家尖 → 杭州</small></div><span>两个人、一只小狗，慢慢走。</span></div></footer>
   <nav class="mobile-nav" aria-label="手机快捷导航"><a href="#today"><span>✳</span>出发前</a><a href="#plan"><span>◷</span>行程</a><a href="#bookings"><span>⌂</span>订单</a><a href="#checklist"><span>✓</span>清单</a><a href="#backup"><span>↝</span>应变</a></nav>
+  <dialog id="map-fallback" class="map-dialog" aria-labelledby="map-dialog-title" aria-describedby="map-dialog-hint">
+    <form method="dialog"><button class="map-dialog-close" aria-label="关闭地图选项">×</button></form>
+    <p class="eyebrow">AMAP · 高德地图</p>
+    <h2 id="map-dialog-title">在高德查看地点</h2>
+    <p id="map-place" class="map-place"></p>
+    <p id="map-dialog-hint">如果 App 没有打开，可以重试或查看网页版，选中地点后再导航。</p>
+    <p id="map-browser-hint" hidden>微信、QQ 内可能拦截跳转。可点右上角菜单，选择在系统浏览器打开本页。</p>
+    <div class="map-dialog-actions"><a id="map-open-app" class="button button-primary" target="_self">打开高德 App ↗</a><a id="map-open-web" class="button button-secondary" target="_blank" rel="noopener noreferrer">网页版地图 ↗</a></div>
+  </dialog>
 </body>
 </html>

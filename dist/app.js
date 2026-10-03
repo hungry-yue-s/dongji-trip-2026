@@ -66,16 +66,44 @@ document.getElementById('print-plan')?.addEventListener('click', () => {
   window.print();
 });
 
-// Keep verified static map URLs; provide a search fallback for older markup.
+// Mobile links open the official app directly; the existing web search is a fallback.
+const mapIOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+const mapAndroid = /Android/i.test(navigator.userAgent);
+const mapMobile = mapIOS || mapAndroid || /Mobile|HarmonyOS/i.test(navigator.userAgent);
+const mapDialog = document.getElementById('map-fallback');
+const mapAppLink = document.getElementById('map-open-app');
+const mapWebLink = document.getElementById('map-open-web');
+const mapPlace = document.getElementById('map-place');
+const mapBrowserHint = document.getElementById('map-browser-hint');
+if (mapBrowserHint) mapBrowserHint.hidden = !/MicroMessenger|\bQQ\//i.test(navigator.userAgent);
 document.querySelectorAll('[data-map]').forEach(link => {
   if (!link.getAttribute('href') || link.getAttribute('href') === '#') {
     const city = link.dataset.city || '舟山';
     const params = new URLSearchParams({ keyword: link.dataset.map, city, view: 'map', callnative: '1', src: 'dongji-trip-2026' });
     link.href = `https://uri.amap.com/search?${params}`;
   }
-  link.target = '_blank';
+  const webURL = new URL(link.href);
+  webURL.searchParams.set('callnative', '0');
+  link.dataset.webMap = webURL.href;
+  if (mapIOS || mapAndroid) {
+    const city = webURL.searchParams.get('city') || link.dataset.city || '舟山';
+    const place = webURL.searchParams.get('keyword') || link.dataset.map;
+    const query = `${city} ${place}`;
+    const keywordParam = mapIOS ? 'name' : 'keywords';
+    link.href = `${mapIOS ? 'iosamap' : 'androidamap'}://poi?sourceApplication=dongji-trip-2026&${keywordParam}=${encodeURIComponent(query)}&dev=0`;
+    link.addEventListener('click', event => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || !mapDialog) return;
+      mapPlace.textContent = query;
+      mapAppLink.href = link.href;
+      mapWebLink.href = webURL.href;
+      if (!mapDialog.open) mapDialog.showModal();
+      // Let the anchor launch the app in the user's click, without a delayed redirect.
+    });
+  }
+  link.target = mapMobile ? '_self' : '_blank';
   link.rel = 'noopener noreferrer';
 });
+mapDialog?.addEventListener('click', event => { if (event.target === mapDialog) mapDialog.close(); });
 
 const checks = [...document.querySelectorAll('[data-check]')];
 const progress = document.getElementById('check-progress');
